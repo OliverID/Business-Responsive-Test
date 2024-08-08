@@ -1,0 +1,220 @@
+h2 {
+    font-family: "Roboto";
+    font-size: 2rem;
+    text-align: center;
+}
+
+h3 {
+    font-family: "Roboto";
+    font-size: 2rem;
+}
+
+p {
+    font-family: "Roboto";
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+    letter-spacing: 0.1rem;
+}
+
+img {
+width: 100%
+
+}
+
+
+p.title {
+    
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height:150px;
+}
+
+#logo {
+    
+}
+
+
+
+.mission h2 {
+
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    text-shadow: 2px 5px 10px black;
+    color:aliceblue;
+}
+
+.mission {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    font-family: "Roboto";
+    font-size: 43px;
+    height: 100vh;
+    background-image: url(images/dog.jpg);
+    background-size: cover;
+    
+}
+
+
+
+
+
+ul {
+    display: inline-block;
+    font-family: "Roboto";
+    font-size: 20px;
+    list-style-type: none;
+    
+}
+li {
+    display: inline;
+    padding: 0px 15px;
+
+}
+
+
+.intro-section {
+    margin: auto;
+    max-width: 50%;
+    text-align: center;
+    padding: 0px 0px 60px 0px;
+}
+
+
+section {
+    background-color: beige;
+    padding: 80px 40px;
+    border-bottom: solid 1px white;
+}
+    
+.services {
+display: flex;
+gap: 40px;
+}
+
+
+
+#people {
+    display: flex;
+    gap: 40px;
+}
+
+.oliver {
+    flex-basis: 33%;
+}
+.martin {
+    flex-basis: 33%;
+
+}
+.mary {
+    flex-basis: 33%;
+ 
+}
+
+
+@media only screen and (max-width: 520px) {
+
+    #people {
+        flex-direction: column;
+        margin:auto;
+        width: 95%;
+    }
+    
+    .services {
+        flex-direction: column;
+        margin:auto;
+        width: 95%;
+    }
+      
+    .oliver {
+        flex-basis: 85%;
+    }
+    .martin {
+        flex-basis: 85%;
+    }
+    .mary {
+        flex-basis: 85%;
+    }
+
+    h3 {
+        text-align: center;
+    }
+
+    p {
+        text-align: center;
+    }
+
+    .intro-section {
+        margin: auto;
+        max-width: 80%;
+        text-align: center;
+        padding: 0px 0px 60px 0px;
+    }
+
+
+}
+
+
+
+@media only screen and (min-width: 520px) and (max-width:768px) {
+    
+    #people {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .services {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+
+    
+    .oliver {
+        flex-basis: 45%;
+    }
+    .martin {
+        flex-basis: 45%;
+    }
+    .mary {
+        flex-basis: 45%;
+    }
+
+
+    .one {
+        flex-basis: 45%;
+    }
+    .two {
+        flex-basis: 45%;
+    }
+    .three {
+        flex-basis: 45%;
+    }
+
+    h3 {
+        text-align: center;
+    }
+
+    p {
+        text-align: center;
+    }
+   
+
+    .intro-section {
+        margin: auto;
+        max-width: 80%;
+        text-align: center;
+        padding: 0px 0px 60px 0px;
+    }
+
+}
+
